@@ -11,13 +11,13 @@ return sum;
 }
 int main()
 {
-    int n;
-    cin>>n;
-    int arr[n];
-    for(int j=0;j < n;j++){
+    int size;
+    cin>>size;
+    int arr[size];
+    for(int j=0;j < size;j++){
         cin>>arr[j];
     }
-   cout << prob(arr,n);
+   cout << prob(arr,size);
 
     return 0;
 }
