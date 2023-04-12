@@ -11,6 +11,7 @@ return sum;
 }
 int main()
 {
+    int sum;
     int size;
     cin>>size;
     int arr[size];
