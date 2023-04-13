@@ -1,10 +1,12 @@
+
 #include <iostream>
 using namespace std;
 void jek(int arr[],int size){
     int start=0;
     int end=size-1;
+    int temp=0;
     while (start < end) {
-       int temp=arr[start];
+        temp=arr[start];
         arr[start] = arr[end];
         arr[end] = temp;
         start++;
