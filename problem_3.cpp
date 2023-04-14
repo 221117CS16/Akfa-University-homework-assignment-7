@@ -1,5 +1,7 @@
 #include <iostream>
+
 using namespace std;
+
 int prob(int arr[],int n){
 int sum=0;
 for(int i=0;i < n;i++){
@@ -9,9 +11,9 @@ for(int i=0;i < n;i++){
 }
 return sum;
 }
+
 int main()
 {
-    int sum;
     int size;
     cin>>size;
     int arr[size];
